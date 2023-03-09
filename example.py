@@ -47,7 +47,7 @@ def main():
 	
 	# Simulation Main Loop
 	for it in range(Nt):
-		print(it)
+		# print(it)
 		
 		# Drift
 		for i, cx, cy in zip(idxs, cxs, cys):
